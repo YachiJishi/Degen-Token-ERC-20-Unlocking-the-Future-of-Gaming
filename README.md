@@ -8,11 +8,11 @@ The Degen Token contract allows users to mint, transfer, and burn tokens. Additi
 
 ## Functions
 
-### 1. `issueTokens(address recipient, uint256 amount)`
+### 1. `mint(address to, uint256 amount)`
 
 The contract owner can call this function to mint a specified amount of DGN tokens to a given address.
 
-### 2. `burnTokens(uint256 amount)`
+### 2. `burn(uint256 amount)`
 
 Allows users to burn a specified amount of DGN tokens from their own balance. The number of tokens burned is tracked per user.
 
