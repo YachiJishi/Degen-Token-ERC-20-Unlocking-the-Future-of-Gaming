@@ -20,8 +20,8 @@ Allows users to burn a specified amount of DGN tokens from their own balance. Th
 
 Allows users to enter a lottery by burning 130 DGN tokens. The user has a chance to win one of the following prizes:
 - **HotSpringsTrip** (2% chance)
-- **TissuesPack** (33% chance)
-- **FryingPan** (65% chance)
+- **FryingPan** (33% chance)
+- **TissuesPack** (65% chance)
 
 The awarded prize is added to the user's inventory, and an event is emitted to log the lottery outcome and inventory change.
 
