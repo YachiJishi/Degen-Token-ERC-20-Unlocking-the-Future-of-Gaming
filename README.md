@@ -29,10 +29,6 @@ The awarded prize is added to the user's inventory, and an event is emitted to l
 
 Returns a string representation of the user's inventory, listing the counts of each prize type.
 
-### 5. `transfer(address recipient, uint256 amount)`
-
-Overrides the default ERC20 `transfer` function to allow token transfers between users.
-
 ## Events
 
 ### 1. `LotteryOutcome(address indexed participant, Prize prize)`
