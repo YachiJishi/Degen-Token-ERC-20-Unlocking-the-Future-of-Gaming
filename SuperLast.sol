@@ -12,8 +12,6 @@ contract Degen is ERC20, Ownable {
     mapping(address => Prize[]) public prizeInventory;
 
     event LotteryOutcome(address indexed participant, Prize prize);
-
-    event Loss(address indexed participant, LoseMoney)
     event InventoryChanged(address indexed participant, Prize[] prizes);
 
     constructor() ERC20("Degen", "DGN") {}
